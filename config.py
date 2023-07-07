@@ -1,4 +1,4 @@
-# Please download the V2ray-config-bot from the following link: https://github.com/virnow/V2ray-config-bot
+# Please download the VpnForosh-bot from the following link: https://github.com/gorgini/VpnForosh-bot
 
 # ===== ( Config Bot V2ray ) =====
 
@@ -14,4 +14,4 @@ admins = [5560376628,2222,3333] # Admins bot ==> command : /panel
 
 timefree = 120 # Wait time until the next configuration in seconds
 
-# Please download the V2ray-config-bot from the following link: https://github.com/virnow/V2ray-config-bot
+# Please download the V2ray-config-bot from the following link: https://github.com/gorgini/VpnForosh-bot
