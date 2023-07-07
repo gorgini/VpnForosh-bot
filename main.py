@@ -56,7 +56,7 @@ async def check_join(user_id):
             await bot.get_chat_member(i, user_id)
             continue
         except errors.exceptions.bad_request_400.UserNotParticipant:
-            ls.append([InlineKeyboardButton("📢 Join Channel {}".format(len(ls)+1),url="https://t.me/{}".format(i.replace("@", '')))])
+            ls.append([InlineKeyboardButton("📢 عضو کانال شوید {}".format(len(ls)+1),url="https://t.me/{}".format(i.replace("@", '')))])
             continue
         except errors.exceptions.bad_request_400.ChatAdminRequired:
             await bot.send_message(admins[0],"**⛔️ The robot is not an admin in the {} channel**".format(i))
@@ -74,9 +74,9 @@ async def check_join(user_id):
 # Keyborad Panel
 panelKEY = ReplyKeyboardMarkup(
         [
-            ["📊 Status Bot","🗂 Source"],
-            ["👥 Send ALL","👥 Forward ALL"],
-            ["◀️back"],
+            ["📊 وضعیت ربات","🗂 سورس"],
+            ["👥 ارسال همه","👥 فوروارد همه"],
+            ["◀️بازگشت"],
         ],
         resize_keyboard=True
     )
@@ -90,16 +90,16 @@ backP = ReplyKeyboardMarkup(
 
 home = ReplyKeyboardMarkup(
         [
-            ["📡 Config Free","📡 Config File"],
-            ["⬆️ Upgrade Account"],
-            ["👤 Account","📣 Sponsors"],
+            ["📡 کانفیگ رایگان","📡 فایل کانفیگ"],
+            ["⬆️ ارتقاء اشتراک"],
+            ["👤 اشتراک","📣 اسپانسر"],
         ],
         resize_keyboard=True
     )
 
 back = ReplyKeyboardMarkup(
         [
-            ["◀️back"],
+            ["◀️بازگشت"],
         ],
         resize_keyboard=True
     )
@@ -108,7 +108,7 @@ configKEY = ReplyKeyboardMarkup(
         [
             ["📡 NORMAL","📡 BASE64"],
             ["📡 CLASH","📡 CLASH.Meta"],
-            ["◀️back"]
+            ["◀️بازگشت"]
         ],
         resize_keyboard=True
     )
@@ -118,7 +118,7 @@ configsKEY = ReplyKeyboardMarkup(
             ["🔗 VMESS","🔗 VLESS"],
             ["🔗 REALITY","🔗 TROJAN"],
             ["🔗 ShadowSocks"],
-            ["◀️back"]
+            ["◀️بازگشت"]
         ],
         resize_keyboard=True
     )
