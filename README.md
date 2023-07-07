@@ -8,13 +8,13 @@ sudo su
 ```
 - Then, after entering your server password, enter the following command and wait:
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/virnow/V2ray-config-bot/main/run.bash)
+bash <(curl -Ls https://raw.githubusercontent.com/gorgini/VpnForosh-bot/main/run.bash)
 ```
 During the configuration editing step, save the configuration with the inserted specifications and wait for the installation process to continue.
 Finally, your robot will run in the background, and you can close the terminal, but do not kill the processes.
 
 # Manual Installation
-- First, download the [Source Code](https://github.com/virnow/V2ray-config-bot/archive/refs/heads/main.zip)!
+- First, download the [Source Code](https://github.com/gorgini/VpnForosh-bot/archive/refs/heads/main.zip)!
 - Extract the zip file.
 ```bash
 cd V2ray-config-bot-main
@@ -34,12 +34,12 @@ Finally, run the main.py and update.py files!
 
 # Screenshots
 <div>
-    <img src="https://raw.githubusercontent.com/virnow/V2ray-config-bot/main/scr/1.png" alt="Image 1" width="300" height="600">
-    <img src="https://raw.githubusercontent.com/virnow/V2ray-config-bot/main/scr/2.png" alt="Image 2" width="300" height="600">
-    <img src="https://raw.githubusercontent.com/virnow/V2ray-config-bot/main/scr/3.png" alt="Image 3" width="300" height="600">
-    <img src="https://raw.githubusercontent.com/virnow/V2ray-config-bot/main/scr/4.png" alt="Image 4" width="300" height="600">
-    <img src="https://raw.githubusercontent.com/virnow/V2ray-config-bot/main/scr/5.png" alt="Image 5" width="300" height="600">
-    <img src="https://raw.githubusercontent.com/virnow/V2ray-config-bot/main/scr/6.png" alt="Image 6" width="300" height="600">
+    <img src="https://raw.githubusercontent.com/gorgini/VpnForosh-bot/main/scr/1.png" alt="Image 1" width="300" height="600">
+    <img src="https://raw.githubusercontent.com/gorgini/VpnForosh-bot/main/scr/2.png" alt="Image 2" width="300" height="600">
+    <img src="https://raw.githubusercontent.com/gorgini/VpnForosh-bot/main/scr/3.png" alt="Image 3" width="300" height="600">
+    <img src="https://raw.githubusercontent.com/gorgini/VpnForosh-bot/main/scr/4.png" alt="Image 4" width="300" height="600">
+    <img src="https://raw.githubusercontent.com/gorgini/VpnForosh-bot/main/scr/5.png" alt="Image 5" width="300" height="600">
+    <img src="https://raw.githubusercontent.com/gorgini/VpnForosh-bot/main/scr/6.png" alt="Image 6" width="300" height="600">
 </div>
 
 # Resources
